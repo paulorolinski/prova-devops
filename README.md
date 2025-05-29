@@ -69,3 +69,7 @@ configurações Kubernetes.
 port-forward.
 11. Fazer uma alteração no FastAPI, realizar o push e verificar se o ArgoCD detecta e
 sincroniza corretamente.
+
+--- 
+## Partes que eu fiz 
+todas, exceto o teste passando pela pipeline(4.1)
