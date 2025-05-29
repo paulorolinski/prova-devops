@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prova-devops
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: prova-devops
+  template:
+    metadata:
+      labels:
+        app: prova-devops
+    spec:
+      containers:
+      - name: prova-devops
+        image: opjorr/prova-devops:latest
+        ports:
+        - containerPort: 8000

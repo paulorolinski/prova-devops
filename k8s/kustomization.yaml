@@ -1,0 +1,6 @@
+resources:
+- deployment.yaml
+- service.yaml
+images:
+- name: opjorr/prova-devops
+  newTag: latest
