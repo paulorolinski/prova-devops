@@ -2,5 +2,10 @@ resources:
 - deployment.yaml
 - service.yaml
 images:
+- name: hello-fastapi
+  newName: opjorr/prova-devops
+  newTag: fbf96879ee5ee036df9fc54882b70d098d5657d2
 - name: opjorr/prova-devops
   newTag: latest
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
