@@ -4,7 +4,7 @@ resources:
 images:
 - name: hello-fastapi
   newName: opjorr/prova-devops
-  newTag: b98b8fae67268e1824a15c39304cd48c932ee3de
+  newTag: 589956aa32f28152b566f8f404edf1ea7f828117
 - name: opjorr/prova-devops
   newTag: latest
 apiVersion: kustomize.config.k8s.io/v1beta1
